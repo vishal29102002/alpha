@@ -1,0 +1,32 @@
+#HeaderSection div{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+#HeaderSection div ul li{
+    
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    
+}
+body{
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#HeaderSection div ul li button{
+     width: 60px;
+     height: 31px;
+     border-radius: 10px;
+     border: 1px solid white;
+     color: white;
+     background-color: transparent;
+}
+#HeaderSection #left{
+    width: 77%;
+}
+#HeaderSection div h1 span{
+    font-weight: 20px;
+}

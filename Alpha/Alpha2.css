@@ -1,0 +1,234 @@
+body{
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+#HeaderSection div ul li button{
+    width: 60px;
+    height: 31px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+#HeaderSection {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    
+    
+}
+#HeaderSection div ul{
+  display:flex ;
+    list-style-type: none;
+    gap: 30px    
+}
+#HeaderSection div h1 span{
+    font-weight: 1;
+    text-align: center;
+}
+#BodySection {
+    
+    text-align: center;
+    color: white;
+    margin-top: 77px;
+    
+}
+#BodySection h1{
+    font-weight: 500;
+    font-size: 60px;
+}
+#BodySection p{
+font-size: 25px;
+}
+#BodySection button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#ffffff;
+    border: none;
+    color: #666666;
+    margin-right: 20px;
+}
+#BodySection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #abadb2;
+}
+
+#ContentSection {
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 40px;
+    color: #646464;
+    margin-top: 150px;
+}
+#ContentSection h1{
+    font-size: 40px;    
+}
+#ContentSection p{
+    font-size: 20px;
+    border-top: 1px solid #e5e5e5;
+    width: 70%;
+margin: auto;
+padding-top: 25px;
+padding-bottom: 60px;
+}
+#ContentSection img{
+    width: 100% ;
+}
+#IconSection{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    color: #64666e;
+    margin-top: 25px;
+}
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+}
+#IconSection div h1{
+    font-size: 25px;
+}
+#IconSection div p{
+    font-size: 17px;
+}
+.fa.fa-bolt{
+    font-size: 40px;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    font-size: 35px;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 23px 23px;
+}
+.fa.fa-cloud{
+    font-size: 35px;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 23px 23px;
+}
+.fa.fa-lock{
+    font-size: 50px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 29px;
+}
+#IconSection #div1{
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+}
+#IconSection #div4{
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    bottom: 1px;
+}
+
+#ImageSection{
+    width: 70%;
+    margin: auto;
+    margin-top: 28px;
+    color: #64666e;
+
+}
+#ImageSection div{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+#ImageSection div img{
+     width: 100%;
+     border-radius: 5px;
+}
+#ImageSection div h1{
+    font-size: 30px;
+}
+#ImageSection div button{
+    height: 50px;
+    width: 138px;
+    background-color: transparent;
+    color:#64666e ;
+    border: 1px solid #64666e ;
+    border-radius: 5px;
+}
+#ImageSection #div2{
+    margin-left: 34px;
+}
+#SignupSection{
+    text-align: center;
+    background-color: #e89980;
+    margin-top: 100px;
+}
+#SignupSection h2{
+    font-size: 35px;
+    color: #f0d2d9;
+    padding-top: 50px;
+}
+#SignupSection p{
+    color: #f0d2d9;
+    font-size: 17px;
+}
+#SignupSection input{
+    margin-top: 20px;
+    height: 48px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid #eba893;
+    background-color: #eba893;
+
+}
+#SignupSection ::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 18px;
+}
+#SignupSection button{
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #eab5a5;
+    background-color: white;
+    margin-left: 13px;
+    font-size: 15px;
+}
+#FooterSection {
+    color: grey;
+    text-align: center;
+    margin-top: 70px;
+
+}
+#div5 {
+    font-size: 35px;
+    gap: 40px;
+}
+#div6 ul {
+    display: inline-flex;
+    list-style: none;
+    gap : 30px;
+}
+
